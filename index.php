@@ -26,6 +26,9 @@
         <!-- Wrapper -->
         <div id="wrapper" class="divided">
             <?php
+                # Appel de la fonction getPageTemplate() avec la page demandée en paramètre
+                /* Si la page demandée n'existe pas ou si aucune page n'est spécifiée, c'est une redirection
+                par défaut, ou plus précisément le template de la page d'accueil qui est inclus par défaut */
                 getPageTemplate(
                     array_key_exists('page', $_GET) ? $_GET['page'] : null
                 );
