@@ -20,7 +20,7 @@
 
     function setDisconnectUser(){
          unset($_SESSION['User']);
-         sessions_destroy();
+         session_destroy();
     }
 
     function isConnected(){
@@ -36,7 +36,7 @@
         $fichier = TL_ROOT.'/pages/'.(is_null($page) ? 'index.php' : $page.'.php');
 
         if(!file_exists($fichier)){
-            inclde TL_ROOT.'/pages/index.php';
+            include TL_ROOT.'/pages/index.php';
         }else{
             include $fichier;
         }
@@ -51,7 +51,7 @@
         return null;
     }
 
-    function getArticleById($id_article == null){
+    function getArticleById($id_article = null){
        if(file_exists(DB_ARTICLE)) {
             $contenu_json = file_get_contents(DB_ARTICLE);
             $_articles    = json_decode($contenu_json, true);
