@@ -35,6 +35,7 @@
             ?>
 
             <?php
+                # Inclusion du pied de page
                 include 'inc/tpl-footer.php';
             ?>
         </div>
