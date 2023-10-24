@@ -41,6 +41,7 @@
         </div>
 
         <?php
+            # Inclusion des scripts Javascript
             include 'inc/inc.js.php';
         ?>
 
