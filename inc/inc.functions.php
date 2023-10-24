@@ -4,7 +4,7 @@
     define('TL_ROOT', dirname(__DIR__));
     define('LOGIN', 'UEL311');
     define('PASSWORD', 'U31311');
-    define('DB_ARTICLES', TL_ROOT.'/dbal/articles.json');
+    define('DB_ARTICLE', TL_ROOT.'/db/articles.json');
 
     function connectUser($login = null, $password = null){
         if(!is_null($login) && !is_null($password)){
@@ -43,7 +43,7 @@
     }
 
     function getArticlesFromJson(){
-        if(file_exist(DB_ARTICLE)) {
+        if(file_exists(DB_ARTICLE)) {
             $contenu_json = file_get_contents(DB_ARTICLE);
             return json_decode($contenu_json, true);
         }
