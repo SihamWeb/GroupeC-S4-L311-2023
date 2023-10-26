@@ -4,8 +4,8 @@
 
     // Définir des constantes
     define('TL_ROOT', dirname(__DIR__)); // Le chemin du répertoire racine du projet
-    define('LOGIN', 'UEL311'); // Nom d'utilisateur attendu
-    define('PASSWORD', 'U31311'); // Mot de passe attendu
+    define('LOGIN', 'mylogin'); // Nom d'utilisateur attendu
+    define('PASSWORD', 'mypassword'); // Mot de passe attendu
     define('DB_ARTICLE', TL_ROOT.'/db/articles.json'); // Chemin vers le fichier JSON des articles
 
     // Fonction pour connecter un utilisateur
