@@ -109,8 +109,13 @@ GroupeC-S4-L311-2023
 
 ## Organisation des fichiers
 
-bd : database (données concernant les articles)
+Le dossier "assets" contient des fichiers CSS et Javascript sous license. Aucune modification n'a été effectuée sur ces fichiers.  
+Le dossier bd stocke la base de données concernant les articles
+Les dossiers "inc" et "pages" et le fichier "index.php" définissent l'organisation architecturale de l'application suivant le motif d'architecture logicielle MVC :
 
+- Modèle : inc
+- Vue : pages
+- Controleur : index.php
 
 ## Convention de nommage des fichiers :
 
@@ -118,6 +123,7 @@ Afin d'éviter toute confusion, la branche main est la branche principale dans l
 
 Les autres branches servent uniquement au développement et sont nommées en fonction de leur utilité pour les développeurs.
 Par exemple, la branche "commentairePHP" n'est utilisée que pour la création des commentaires du fichier PHP.
+
 
 **********************************************
 # POUR LES DÉVELOPPEURS 
