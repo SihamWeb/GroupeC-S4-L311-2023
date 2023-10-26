@@ -107,7 +107,7 @@ GroupeC-S4-L311-2023
 
 ```
 
-# Organisation des fichiers
+## Organisation des fichiers
 
 bd : database (données concernant les articles)
 
