@@ -1,5 +1,5 @@
 <?php
-	setDisconnectUser();
-	header('Location:index.php');
+setDisconnectUser();
+header('Location:index.php');
 ?>
 
