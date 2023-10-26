@@ -69,8 +69,8 @@ Sur chacun d'entre eux, un bref aperçu et un bouton pour accéder à l'article 
 Une fois dans l'article, un bouton retour permet de revenir à la page d'accueil. 
 
 Dans le coin en haut à droite, un bouton "se connecter" donne accès au profil utilisateur. Par défaut, les identifiants sont : \
-Nom d'utilisateur : login \
-Mot de passe : password  
+Nom d'utilisateur : mylogin \
+Mot de passe : mypassword  
 
 ## Langages d'écriture
 
