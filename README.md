@@ -110,7 +110,7 @@ GroupeC-S4-L311-2023
 ## Organisation des fichiers
 
 Le dossier "assets" contient des fichiers CSS et Javascript sous license. Aucune modification n'a été effectuée sur ces fichiers.  
-Le dossier bd stocke la base de données concernant les articles
+Le dossier "bd" stocke la base de données concernant les articles
 Les dossiers "inc" et "pages" et le fichier "index.php" définissent l'organisation architecturale de l'application suivant le motif d'architecture logicielle MVC :
 
 - Modèle : inc
